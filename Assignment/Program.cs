@@ -6,6 +6,8 @@ namespace Assignment
     {
         static void Main(string[] args)
         {
+            //Question (2)
+            HiringDate hireDate = new HiringDate(10, 10, 2025);
             // Question (1)
             Employee emp = new Employee(
             id: 1,
@@ -13,7 +15,7 @@ namespace Assignment
             gender: 'M',
             security: SecurityLevel.Developer,
             salary: 15000,
-            hireDate: new DateTime(2025, 10, 10)
+            hireDate: hireDate
         );
 
             Console.WriteLine(emp);

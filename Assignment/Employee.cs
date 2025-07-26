@@ -28,9 +28,9 @@ namespace Assignment
         }
         public SecurityLevel Security { get; set; }
         public double Salary { get; set; }
-        public DateTime HireDate { get; set; }
+        public HiringDate HireDate { get; set; }
 
-        public Employee(int id, string name, char gender, SecurityLevel security, double salary, DateTime hireDate)
+        public Employee(int id, string name, char gender, SecurityLevel security, double salary, HiringDate hireDate)
         {
             ID = id;
             Name = name;
